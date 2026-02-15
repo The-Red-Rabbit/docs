@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Home",
+      "symbolSize": 0,
+      "value": "/docs/"
+    },
+    {
+      "id": "1",
+      "name": "Logische Verkn\u00fcpfungen",
+      "symbolSize": 1,
+      "value": "/docs/Digitaltechnik/Logische%20Verkn%C3%BCpfungen/"
+    },
+    {
+      "id": "2",
+      "name": "Signale",
+      "symbolSize": 1,
+      "value": "/docs/Digitaltechnik/Signale/"
+    },
+    {
+      "id": "3",
+      "name": "Zahlensysteme",
+      "symbolSize": 0,
+      "value": "/docs/Digitaltechnik/Zahlensysteme/"
+    },
+    {
+      "id": "4",
+      "name": "Kapitel 1",
+      "symbolSize": 0,
+      "value": "/docs/about/"
+    },
+    {
+      "id": "5",
+      "name": "Unterabschnitt 1",
+      "symbolSize": 0,
+      "value": "/docs/Abschnitt1/test1/"
+    }
+  ],
+  "links": [
+    {
+      "source": "1",
+      "target": "2"
+    }
+  ]
+}

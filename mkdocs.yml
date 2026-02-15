@@ -1,0 +1,62 @@
+site_name: Lerndokumentation
+docs_dir: docs
+site_url: https://fe.uber.space/docs/
+repo_url: https://github.com/squidfunk/mkdocs-material
+edit_uri: edit/main/docs/
+nav:
+  - Home: index.md
+  - Digitaltechnik:
+    - 'Digitaltechnik/Logische Verknüpfungen.md'
+    - Digitaltechnik/Signale.md
+    - Digitaltechnik/Zahlensysteme.md
+  - Über: about.md
+theme:
+  name: material
+  locale: de
+  color_mode: dark
+  user_color_mode_toggle: true
+  icon:
+    annotation: material/arrow-right-circle
+    admonition:
+      note: octicons/info-16
+    edit: material/pencil 
+    view: material/eye
+  palette:
+    scheme: slate
+  features:
+    - search.suggest
+    - search.highlight
+    - content.footnote.tooltips
+    - content.tooltips
+    - content.action.edit
+plugins:
+  - obsidian-interactive-graph
+  - search
+  - callouts
+  - obsidian-bridge
+  - glightbox
+  - git-revision-date-localized:
+      enable_creation_date: true
+markdown_extensions:
+  - footnotes
+  - attr_list
+  - md_in_html
+  - nl2br
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.blocks.caption
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
+  - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
+  - assets/javascripts/interactive_graph.js
+  - assets/javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - assets/stylesheets/interactive_graph.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
