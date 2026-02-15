@@ -1,7 +1,7 @@
 site_name: Lerndokumentation
 docs_dir: docs
 site_url: https://fe.uber.space/docs/
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_url: https://github.com/The-Red-Rabbit/docs
 edit_uri: edit/main/docs/
 nav:
   - Home: index.md
